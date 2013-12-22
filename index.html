@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml-strict.dtd">
+
+<html xlmns="http://www.w3.org/1999/xhtml1" lang="eng", xml:lang="eng">
+
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
+
+<link rel='stylesheet' type='text/css' href="stylesheet.css">
+
+
+<title> BubbleGame </title>
+
+</head>
+
+
+	<body>
+		
+	<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+	
+	<canvas id="introscreen" class="intro" width="winw" height="winh"></canvas>
+	
+	<div id="title" class="intro" >J I N G L E B U B B L E Z</div>
+	
+	<p id="subheading" class="intro" >Happy Christmas Georgia + Matthew</p>
+	
+	
+	<button id="start" class="intro" onclick="startUp()">Start</button>
+	
+	<canvas id="background" class="data" width=winw height=winh ></canvas>
+	
+	<canvas id="canvas1" class="data" width=600 height=600 style="border:1px solid #000000;">
+	</canvas>
+	
+	
+
+	
+
+	<img id="snowflake" src="snowflake.png" style="display:none" />
+	<img id="present" src="present.png" style="display:none" />
+	<img id="santa" src="santa.png" style="display:none" />
+
+	
+	
+	<p id="timer" class="data" >Survived:</p>
+	
+	<p id="score" class="data" >Bonus: </p>
+	
+	<p id="highscore" class="data" >Highscore: </p>
+
+	
+	<p id="life" class="data"></p>
+	
+	<button id="playagain" onclick="startUp()">Play again?</button>
+ 
+
+	<script type='text/javascript' src="jsgraphics.js"></script>
+	<script type='text/javascript' src="bubblegame.js"></script>
+ 
+	
+	
+	</body>
+ 
